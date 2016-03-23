@@ -2,22 +2,19 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="index">
+  <div class="wrapper">
+    <h1>GOV.AU</br>Universal design guide v1.0</h1>
+    <h2>simpler, clearer, faster</h2>
+    <h2>Digital Design standards for Australian Goverment</h2>
+    <div class="row">
+      <div>
+        <a href="/styleguide.html" type="button" class="button blue">View the standards</a>
+      </div>
+      <div>
+        <a href="" download="" class="button white shadow">Download the components</a>
+        <small>Download a zip file with code and assets</small>
+      </div>
+    </div>
+  </div>
 </div>
