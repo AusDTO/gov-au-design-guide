@@ -2,3 +2,52 @@
 @import "typography";
 @import "bourbon";
 @import "neat";
+
+.wrapper {
+  max-width: 64em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin:0;
+  padding:0;
+}
+
+header {
+  height:80px;
+
+  &.main {
+    background-color: #244A61;
+    height: 80px;
+    color: #fff;
+
+    .title {
+      & > * {
+        margin: 0;
+        display:inline-block;
+        letter-spacing: 0;
+        font-weight:normal;
+      }
+
+      h2 {
+        font-size:2.33em;
+        line-height: 80px;
+      }
+      h3 {
+        font-size:1.33em;
+        margin-left:1em;
+      }
+
+      a {
+        color:#fff;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+
+}
+
+@import "custom";
