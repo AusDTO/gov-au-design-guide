@@ -1,15 +1,15 @@
 .index {
-
     height:calc(100vh - 80px);
     background-image: linear-gradient(-134deg, #00BFE7 0%, #05E1F5 100%);
     color: #fff;
+    padding:0.5em;
 
     .row {
       margin-top: 51px;
     }
 
     .wrapper {
-      padding-top:28%;
+      padding-top:20%;
     }
 
     h1 {
@@ -25,4 +25,12 @@
       margin: 0.5em 0;
     }
 
+    @media (max-width: 360px) {
+      h1 {
+        font-size:3em;
+      }
+      h2 {
+        font-size:1.5em;
+      }
+    }
 }

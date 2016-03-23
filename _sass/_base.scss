@@ -11,11 +11,11 @@
 
 .container {
   margin:0;
-  padding:0;
 }
 
 header {
   height:80px;
+  padding:0.5em;
 
   &.main {
     background-color: #244A61;
@@ -35,15 +35,28 @@ header {
         line-height: 80px;
       }
       h3 {
-        font-size:1.33em;
-        margin-left:1em;
+        font-size:1.25em;
+        margin-left:0.5em;
       }
 
       a {
         color:#fff;
         text-decoration: none;
       }
+
+      @media (max-width: 400px) {
+        h2 {
+          font-size:2em;
+          line-height: 80px;
+        }
+        h3 {
+          font-size:1em;
+          margin-left:0.25em;
+        }
+      }
+
     }
+
 
   }
 
